@@ -550,11 +550,21 @@ Give intelligent and meaningful analysis.
 // ===========================
 // Root API
 // ===========================
+// ===========================
+// Root APIs
+// ===========================
 
 app.get("/", (req, res) => {
 
     res.send(
         "AI Smart Complaint Management API Running"
+    );
+});
+
+app.get("/api", (req, res) => {
+
+    res.send(
+        "Smart Complaint Management API Running"
     );
 });
 
