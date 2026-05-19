@@ -582,32 +582,30 @@ ${c.status === "Pending"
 
                             <select
 
-                                onChange={(e) =>
+    value={c.status}
 
-                                    updateStatus(
-                                        c._id,
-                                        e.target.value
-                                    )
-                                }
-                            >
+    onChange={(e) =>
 
-                                <option>
-                                    Update Status
-                                </option>
+        updateStatus(
+            c._id,
+            e.target.value
+        )
+    }
+>
 
-                                <option>
-                                    Pending
-                                </option>
+    <option value="Pending">
+        Pending
+    </option>
 
-                                <option>
-                                    In Progress
-                                </option>
+    <option value="In Progress">
+        In Progress
+    </option>
 
-                                <option>
-                                    Resolved
-                                </option>
+    <option value="Resolved">
+        Resolved
+    </option>
 
-                            </select>
+</select>
 
 
                             {/* AI BUTTON */}

@@ -487,3 +487,43 @@ button:hover {
 
   gap: 14px;
 }
+
+select {
+
+  width: 100%;
+
+  margin-top: 12px;
+
+  margin-bottom: 12px;
+
+  padding: 12px 14px;
+
+  border-radius: 10px;
+
+  border: 1px solid rgba(255,255,255,0.15);
+
+  background: rgba(255,255,255,0.08);
+
+  color: white;
+
+  font-size: 14px;
+
+  outline: none;
+
+  cursor: pointer;
+}
+
+select option {
+
+  background: #1e1b4b;
+
+  color: white;
+}
+
+select:focus {
+
+  border-color: #7c3aed;
+
+  box-shadow:
+    0 0 0 3px rgba(124,58,237,0.2);
+}
